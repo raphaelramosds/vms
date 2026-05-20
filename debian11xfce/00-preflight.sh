@@ -6,8 +6,7 @@ apt-get update
 
 # Base packages
 apt-get install -y htop openssh-server git curl \
-  apache2 dkms build-essential linux-headers-$(uname -r) \
-  virtualbox-guest-utils virtualbox-guest-x11 virtualbox-guest-dkms
+  apache2 dkms build-essential linux-headers-$(uname -r)
 
 # XFCE desktop environment
 apt-get install -y xfce4 xfce4-goodies lightdm
